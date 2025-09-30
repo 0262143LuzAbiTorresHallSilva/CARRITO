@@ -1,5 +1,5 @@
-import Carrito from "./components/Carrito"
-import Catalogo from "./components/Catalogo"
+import React from 'react'
+import CatCarr from "./components/CatCarr"
 import Navbar from "./components/navbar"
 
 function App() {
@@ -8,8 +8,7 @@ function App() {
   return (
     <>
     <Navbar></Navbar>
-    <Catalogo></Catalogo>
-    <Carrito></Carrito>
+    <CatCarr></CatCarr>
     </>
   )
 }
